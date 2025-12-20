@@ -1,0 +1,163 @@
+*{
+    font-family: "Outfit", sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+.logo{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.nav-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.search-bar-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.70rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgb(73, 64, 64);
+    padding: 0.75rem;
+    border-radius: .75rem;
+    opacity: 0.7;
+}
+.navbar-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.70rem;
+    opacity: 0.7;
+}
+.navbar-button a{
+    text-decoration: none;
+}
+.search-bar-right{
+    display: flex;
+    flex-direction: row;
+    gap: 0.70rem;
+}
+.nav-bottom{
+    padding: 1rem 3rem 1rem 3rem;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 1rem;
+    gap: 1.2rem;
+    align-items: center;
+}
+.option button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.75rem;
+    border: 0px;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+.option button:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.sticky-bar{
+    height: 5rem;
+    width: 100%;
+    padding: 1rem 3rem 1rem 3rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(215, 212, 212);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+}
+.sticky-bar button{
+    padding: .75rem;
+    border-radius: 0.75rem;
+    gap: 0.5rem;
+    opacity: 0.7;
+}
+.container{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgb(237, 237, 237);
+    padding: 0.75rem;
+    height: 15rem;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.main-content h2{
+    /* background-color: rgb(237, 237, 237); */
+    padding: 1rem 3rem 0 3rem;
+}
+.card p{
+    background-color: rgb(237, 237, 237);
+}
+.card img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+}
+.container1{
+    padding: 1rem 3rem 1rem 3rem;
+    /* background-color: rgb(237, 237, 237); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card1{
+    /* background-color: rgb(237, 237, 237); */
+    padding: 0.75rem;
+    height: 15rem;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.card1 img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+}
+.footer{
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(244, 244, 244);
+}
+.footer-nav{
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer-nav button{
+    padding: .5rem;
+    border-radius: 0.75rem;
+}
+.footer-middle h3{
+    padding: 1rem 3rem 1rem 3rem;
+}
+.footer-text{
+    padding: 1rem 3rem 1rem 3rem;
+    border: 1px solid rgb(212, 212, 212);
+}
