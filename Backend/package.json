@@ -1,0 +1,16 @@
+{
+  "name": "import",
+  "version": "1.0.0",
+  "description": "Learning export and import of modules",
+  "main": "Math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Doppalapudi Yeshwanth",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "figlet": "^1.9.3",
+    "random-words": "^2.0.1"
+  }
+}

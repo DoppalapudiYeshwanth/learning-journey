@@ -1,0 +1,43 @@
+*{
+    margin : 0px ;
+    padding : 0px ;
+}
+body{
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    height: 5rem;
+    width : 5rem;
+    border: 0.4rem solid black;
+    border-radius: 20%;
+    margin: 0.5rem;
+}
+.lineone{
+    display: flex;
+    flex-direction: row;
+}
+.linetwo{
+    display: flex;
+    flex-direction: row;
+}
+.red{
+    background-color: rgb(195, 62, 62);
+}
+.yellow{
+    background-color: rgb(204, 197, 61);
+}
+.green{
+    background-color: rgb(78, 195, 62);
+}
+.purple{
+    background-color: rgb(53, 60, 193);
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}

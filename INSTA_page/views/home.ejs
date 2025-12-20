@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Home Page</title>
+</head>
+<body>
+    <h1>Insta Page</h1>
+    <%for(account of account){%>
+    <div class="post">
+        <h2>Username : <%=account.username%></h2>
+        <h3>Content : <%=account.content%></h3>
+        <br><br>
+        <img src="/uploads/<%= account.image %>" width="200">
+        <br>
+        <a href="/home/<%=account.id%>">See the post in detail</a>
+        <a href="/home/<%=account.id%>/update">Edit the post</a>
+        <form method="post" action="/home/<%=account.id%>?_method=DELETE" >
+            <button>Delete</button>
+        </form>
+    <%}%>
+    </div>
+    <a href="/home/new">Create posts</a>
+</body>
+</html>

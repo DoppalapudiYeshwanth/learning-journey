@@ -1,0 +1,60 @@
+/* #outer{
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding:5px 2px 5px 2px;
+    box-shadow: 2px 10px 10px;
+}
+.inner{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 7px;
+    box-shadow: 1px 5px 5px;
+}
+.inner:hover{
+     box-shadow: 2px 10px 10px;
+     transition: box-shadow 0.5s ease-in-out;
+} */
+#navdiv{
+    border: 2px solid green;
+    box-shadow: 2px 10px 10px;
+    background-color: pink;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 15px;
+    gap: 20px;
+    padding:2px;
+}
+.innerbutton{
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    all:unset;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer; 
+}
+.innerbutton:hover{
+    box-shadow: 2px 10px 10px;
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 10px;
+}
