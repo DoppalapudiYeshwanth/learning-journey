@@ -1,0 +1,27 @@
+.card{
+    border-radius: 1rem;
+    border: 2px solid white;
+    padding: 0;
+    margin: 1rem;
+}
+.card-upper{
+    background-color: aqua;
+    border-radius: 1rem 1rem 0 0;
+    padding: 2rem;
+}
+.card-lower{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellow;
+    border-radius: 0 0 1rem 1rem;
+    padding: 0 2rem 0 2rem;
+}
+.card-text{
+    color: black;
+    margin: 0;
+}
+#oldPrice{
+    text-decoration: line-through;
+}
